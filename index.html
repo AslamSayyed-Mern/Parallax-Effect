@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallex Effect</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Karma:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins',sans-serif;
+        }
+        body{
+            scroll-behavior: smooth;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            font-style: italic;
+            justify-content: center;
+            align-items: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            font-size: xx-large;
+            color: #fff;
+            font-weight: 800;
+            text-align: center;
+            text-shadow: 2px 2px 20px black;
+        }
+        .section{
+            padding: 50px;
+            height: 100px;
+            font-style: italic;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #eceaea;
+        }
+        #box1{
+            background-image: url("https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+        #box2{
+            background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+        #box3{
+            background-image: url("https://images.unsplash.com/photo-1458668383970-8ddd3927deed?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="box1">
+        Whispers of the Forest
+    </div>
+
+    <div class="section">
+        <p>The forest speaks in rustling leaves, chirping birds, and dancing sunlight. It’s a place where time slows down and nature’s harmony takes over</p>
+    </div>
+
+    <div class="container " id="box2">
+        Echoes of the Ocean
+    </div>
+
+    
+    <div class="section">
+        <p>
+            Waves crash, tides rise, and the deep blue holds mysteries untold. The ocean connects continents and stories alike
+        </p>
+    </div>
+
+    <div class="container" id="box3">
+        Secrets of the Mountains
+    </div>
+    <div class="section">
+        <p>
+            Towering peaks, cold winds, and ancient trails. Mountains inspire strength, serenity, and a sense of awe in every explorer’s heart
+        </p>
+    </div>
+    
+</body>
+</html>
